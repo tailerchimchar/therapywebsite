@@ -8,6 +8,8 @@ import './index.css';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavLink } from 'react-router-dom';
+import './custom.css';
+import './background.js'
 
 import './App.css';
 
@@ -16,6 +18,10 @@ function App() {
     <Router>
       <div className="App">
           <header>
+          <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css"></link>
+          <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css"></link>
+          <link rel="stylesheet" href="/css/font-awesome.css"></link>
+
           {/* Navigation Bar */}
           <nav className='navbar'>
             <ul>

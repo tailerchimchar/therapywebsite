@@ -3,7 +3,7 @@ import React from 'react';
 function Home() {
   return (
     <div>
-      <h1>Welcome to Friend's Therapy Startup home page</h1>
+      <h1>Welcome to Tam's Therapy Startup home page</h1>
       <div className="headshot-container">
         <img src="images/tams-headshot.png" alt="Tam's Headshot" />
       </div>
@@ -19,6 +19,9 @@ function Home() {
       Praesent pulvinar, purus eu vehicula volutpat, enim purus congue justo, vel vulputate sem turpis non nunc. 
     
       </p>
+
+      <a class="btn btn-large btn-success" href="#"><i class="icon-truck"></i> Sign up today</a>
+
 
     </div>
   );
