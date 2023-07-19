@@ -5,8 +5,8 @@ p, div {
   font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
 body { 
-  background: url(/images/moroccan-transparent.png) repeat 0 0;
-}
+  background: url(images/moroccan-transparent.png) repeat 0 0;
+  }
 .jumbotron .btn i { 
   margin-right: 8px;  
 }

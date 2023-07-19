@@ -1,4 +1,5 @@
 import React from 'react';
+import tamsHeadshot from '../images/tamheadshot.png';
 
 function AboutMe() {
   return (
@@ -20,7 +21,7 @@ function AboutMe() {
       </div>
       <div className="col-md-6">
         {/* Insert headshot image here */}
-        <img src="images/tams-headshot.png" alt="Tam's Headshot" />
+        <img src={tamsHeadshot} alt="Tam's Headshot" width = "300px" />
       </div>
     </div>
   </div>
