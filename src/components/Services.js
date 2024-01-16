@@ -1,12 +1,11 @@
 import React from 'react';
-import tamsHeadshot from '../images/tamheadshot.png';
 
-function Home() {
+function Service() {
   return (
     <div>
-      <h1>Welcome to Tam's Therapy Startup home page</h1>
+      <h1>Welcome to Tam's Therapy Startup Services page</h1>
       <div className="headshot-container">
-        <img src={tamsHeadshot} alt="Tam's Headshot" />
+        <img src="images/tams-headshot.png" alt="Tam's Headshot" />
       </div>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
          Nam nec ex sed dolor posuere ullamcorper sit amet eu sem. 
@@ -28,4 +27,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Service;
