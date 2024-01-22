@@ -4,6 +4,7 @@ import About from './components/About';
 import Home from './components/Home';
 import Inquiries from './components/Inquiries';
 import Contact from './components/Contact';
+import Services from './components/Services.js';
 import './index.css';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -29,6 +30,7 @@ function App() {
               <li><Link to="/about"className = "link">About Me</Link></li>
               <li><Link to="/inquiries"className = "link">Submit Inquiries</Link></li>
               <li><Link to="/Contact"className = "link">Contact me</Link></li>
+              <li><Link to="/Services"className = "link">Services</Link></li>
             </ul>
           </nav>
         </header>
@@ -39,6 +41,7 @@ function App() {
             <Route path="/about" component={About} />
             <Route path="/inquiries" component={Inquiries} />
             <Route path="/Contact" component={Contact} />
+            <Route path="/Services" component={Services} />
           </Switch>
         </main>
       </div>
