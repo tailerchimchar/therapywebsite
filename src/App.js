@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import About from './components/About';
+import Approach from './components/Approach.js';
 import Home from './components/Home';
 import Inquiries from './components/Inquiries';
 import Contact from './components/Contact';
@@ -28,6 +29,7 @@ function App() {
             <ul>
               <li><Link to="/Home" className = "link">Home</Link></li>
               <li><Link to="/about"className = "link">About Me</Link></li>
+              <li><Link to="/approach"className = "link">Approach</Link></li>
               <li><Link to="/inquiries"className = "link">Submit Inquiries</Link></li>
               <li><Link to="/Contact"className = "link">Contact me</Link></li>
               <li><Link to="/Services"className = "link">Services</Link></li>
@@ -39,6 +41,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/Home" component={Home} />
             <Route path="/about" component={About} />
+            <Route path="/approach" component={Approach} />
             <Route path="/inquiries" component={Inquiries} />
             <Route path="/Contact" component={Contact} />
             <Route path="/Services" component={Services} />
