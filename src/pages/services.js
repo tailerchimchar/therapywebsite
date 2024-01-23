@@ -1,8 +1,11 @@
+import Link from "next/link"
+import Image from "next/image";
 import React from 'react';
 import instagramPic from '../images/instagram.png';
 import linkedInPic from '../images/linkedin.png';
 
 function Service() {
+
   let message = 'Can put anything here'
   return (
     <section className="section-white"> 
@@ -65,9 +68,12 @@ function Service() {
               <h4>Column 2</h4>
               <p>
                 Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Quis auctor elit sed.
-                <a href="https://www.instagram.com"><img src={instagramPic} alt="Instagram" width="50px" /></a>
-                <a href="https://www.linkedin.com"><img src={linkedInPic} alt="LinkedIn"  width="50px"/></a>
-              </p>
+                <a href="https://www.instagram.com">
+                  <Image src={instagramPic} alt="Instagram" width={50} height={50} />
+                </a>   
+                <a href="https://www.linkedin.com">
+                  <Image src={linkedInPic} alt="LinkedIn" width={50} height={50} />
+                </a>                            </p>
               <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b></p>
             </div>
             <div className="col-md-4" >
