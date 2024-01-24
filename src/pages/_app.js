@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Styles/custom.css';
 import '../Styles/App.css';
 import Navbar from '../components/navbar'; // Adjust the path as necessary
+import Footer from '../components/footer';
 
 function App({Component, pageProps})
 {
@@ -12,7 +13,8 @@ function App({Component, pageProps})
   <>
       <Navbar />
       <Component {...pageProps} />
-  </>
+      <Footer></Footer>
+      </>
   );
 }
 export default App;
