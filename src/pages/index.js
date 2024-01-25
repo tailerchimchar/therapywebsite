@@ -13,7 +13,7 @@ import linkedInPic from '../images/linkedin.png';
 function Home() {
 
   return (
-    <Parallax className='backgroundimg' bgImage='../images/instagram.png' strength={800}>
+    <Parallax className='backgroundimg' bgImage={bg1} strength={800}>
       <h1>Welcome to Tam's Therapy Startup home page</h1>
       <div className="headshot-container">
       <Image src={tamsHeadshot} alt="Tam's Headshot" width={500} height={500} />

@@ -29,12 +29,6 @@ nav {
   object-position: center;
 }
 
-.backgroundimg{
-  width: 100%;
-  
- 
-}
-
 .div1{
   background-color: white;
   padding: 10vh;
@@ -112,4 +106,8 @@ nav {
 .fillerDiv{
   height: 50vh;
   background-color: whitesmoke;
+}
+
+.backgroundimg{
+  width: 100%;
 }
