@@ -3,7 +3,7 @@ import '../Styles/index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Styles/custom.css';
 import '../Styles/App.css';
-import Navbar from '../components/navbar'; // Adjust the path as necessary
+import Navbar from '../components/navbar'; 
 import Footer from '../components/footer';
 
 function App({Component, pageProps})
