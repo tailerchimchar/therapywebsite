@@ -5,8 +5,8 @@ import linkedInPic from '../images/linkedin.png';
 const Footer = () => {
     return (
 
-      <div className="footer mt-auto" style={{ backgroundColor: '#333', color: '#fff' }}>
-      <div className="container">
+      <div className="footer mt-auto footer-div" style={{ backgroundColor: '#333', color: '#fff' }}>
+      <div className="footer-container">
         <div className="row">
           <div className="col-md-4" >
             {/* First Footer Column */}
