@@ -111,3 +111,21 @@ nav {
 .backgroundimg{
   width: 100%;
 }
+
+.add{
+  font-family: Tahoma, "Trebuchet MS", sans-serif;
+}
+
+.add:hover{
+  background-color: rgb(179, 63, 251);
+  font-weight: bold;
+}
+
+.abtappro{
+  font-family: Tahoma, "Trebuchet MS", sans-serif;
+}
+
+.abtappro:hover{
+  background-color: rgb(179, 63, 251);
+  font-weight: bold;
+}
