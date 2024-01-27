@@ -44,7 +44,7 @@ nav {
   font-family: 'Arial', sans-serif;
   font-size: 40px;
   font-weight: bold;
-  color:#f0f0f0;
+  color:black;
 }
 
 .div3{
@@ -128,4 +128,16 @@ nav {
 .abtappro:hover{
   background-color: rgb(179, 63, 251);
   font-weight: bold;
+}
+.footer-container{
+    position: sticky;
+    top: 100%;
+}
+
+.footer-div{
+  min-height: 100vh;
+}
+
+.background1{
+  background: url("../images/city1.jpg");
 }
