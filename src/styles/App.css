@@ -114,10 +114,25 @@ nav {
 
 .add{
   font-family: Tahoma, "Trebuchet MS", sans-serif;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(179, 63, 251);
+  background-color: rgb(179, 63, 251);
 }
 
 .add:hover{
-  background-color: rgb(179, 63, 251);
+  background-color: rgb(110, 18, 168);
+  font-weight: bold;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(110, 18, 168);
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.35em);
+}
+
+.add:onClick{
+  font-weight: bold;
+}
+
+.add:target{
   font-weight: bold;
 }
 
@@ -140,4 +155,8 @@ nav {
 
 .background1{
   background: url("../images/city1.jpg");
+}
+
+.special{
+ font-weight: bold;
 }
