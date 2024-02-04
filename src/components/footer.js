@@ -1,48 +1,63 @@
 import Image from "next/image";
+import therapyPink from '../images/therapyPink.png';
 import instagramPic from '../images/instagram.png';
 import linkedInPic from '../images/linkedin.png';
 
 const Footer = () => {
     return (
-
-      <div className="footer mt-auto" style={{ backgroundColor: '#333', color: '#fff' }}>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-4" >
-            {/* First Footer Column */}
-            <h4>Column 1</h4>
-            <p>Eget arcu dictum varius duis at consectetur lorem donec massa. Et leo duis ut diam quam.</p>
-            <p><b>Suscipit adipiscing bibendum est ultricies integer quis auctor elit.</b></p>
-          </div>
-          <div className="col-md-4" >
-            {/* Second Footer Column */}
-            <h4>Column 2</h4>
-            <p>
-              Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Quis auctor elit sed.
-              <a href="https://www.instagram.com">
-                <Image src={instagramPic} alt="Instagram" width={50} height={50} />
-              </a>   
-              <a href="https://www.linkedin.com">
-                <Image src={linkedInPic} alt="LinkedIn" width={50} height={50} />
-              </a>  
-            </p>
-            <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b></p>
-          </div>
-          <div className="col-md-4" >
-            {/* Third Footer Column */}
-            <h4>Column 3</h4>
-            {/* Change href to appropriate address link */}
-            <p><a href="https://www.google.com/maps"> Address Goes Here</a> </p>
-            {/* Change availability here */}
-            <p>Availability days of the week</p>
-            <p>Availability hours of the week</p>
-            <p>Email</p>
-            <p>Phone number</p>
-          </div>
+      <footer className="footer p-10 bg-base-20 text-base-content">
+          <h1 className="top-div" style={{ display: 'inline-block', paddingLeft: '50px' }}>
+            Prevention & Treat Mental Health Problems</h1>
+      
+      <aside className="image-spacing">
+        <Image src={therapyPink} alt="Pink Image" width={300} height={400} />
+        <div className="social-links">
+          <a href="https://www.instagram.com">
+            <Image src={instagramPic} alt="Instagram" width={50} height={50} />
+          </a>   
+          <a href="https://www.linkedin.com">
+            <Image src={linkedInPic} alt="LinkedIn" width={50} height={50} />
+          </a> 
         </div>
+      </aside>
+
+      <div className="footer-spacing">
+        <h6 className="footer-title line">Contact Info</h6>
+        <p><strong>Telehealth Only</strong></p>
+        <p><strong>713-123-1234</strong></p>
+        <p>Email:</p>
+        <p><strong>Tam'sEmail@gmail.com:</strong></p>
       </div>
-    </div>
+
+      <div className="footer-spacing">
+        <h6 className="footer-title line">Quick Links</h6>
+        <a href="http://localhost:3000/">Home</a>
+        <a href="http://localhost:3000/about">About Me</a>
+        <a href="http://localhost:3000/approach">Approach</a>
+        <a href="http://localhost:3000/inquiries">Submit Inquiries</a>
+        <a href="http://localhost:3000/contact">Contact Me</a>
+        <a href="http://localhost:3000/services">Services</a>
+      </div>
+
+      <div className="footer-spacing">
+        <h6 className="footer-title line">Hours of Operation:</h6>
+        <p><strong>Mondays-Fridays:</strong> 8:00am - 9:00pm</p>
+        <p><strong>Saturdays:</strong> 8:00am - 6:00pm</p>
+        <p><strong>Sundays:</strong> 9:00am - 6:00pm</p>
+      </div>
+      
+      <div className = "div-test">
+        <button>
+          <h1 className="text-purple-900 bg-purple-200 border border-purple-500 py-2 px-4 rounded-md" style={{ boxShadow: '0 0 0 3px #681C4D' }}>
+            Book an <br /> appointment
+          </h1>
+        </button>
+      </div>
+    </footer>
     );
-};
+  };
+      
+
 
 export default Footer;
+

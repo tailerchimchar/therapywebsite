@@ -111,3 +111,91 @@ nav {
 .backgroundimg{
   width: 100%;
 }
+
+.line {
+  border-bottom: solid #938585 2px;
+  width: 250px;
+  padding-bottom: 15px;
+  display: inline-block; /* Ensure the line only takes the width of its content */
+  margin-top: 50px;
+}
+
+.image-spacing{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+nav.footer-spacing p {
+  margin: 3px 0;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #f0f0f0;
+  position: relative;
+}
+
+.top-div {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  background-color: #E0C8EA;
+  padding: 10px;
+  margin-bottom: 0px; 
+  margin-right: 10px;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-links a {
+  margin-right: 10px; /* Add some margin between the links */
+}
+
+.move-right {
+  padding-left: 20px;
+}
+
+.submit-button {
+  background-color: #3498db; /* Blue color, adjust as needed */
+  color: #fff; /* White text color */
+  padding: 10px 15px; /* Adjust padding as needed */
+  border: none;
+  margin:20px;
+  border-radius: 5px; /* Rounded corners, adjust as needed */
+  cursor: pointer;
+}
+
+.top-div-button {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  background-color: #E0C8EA;
+  padding: 10px;
+  margin-bottom: 0px; 
+  margin-right: 10px;
+}
+
+.div-test{
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-outline-custom-purple {
+  color: #6c757d; /* Text color for dark outline */
+  border-color: #800080; /* Purple border color */
+}
+
+/* Optionally, adjust the padding for better fit */
+.btn-outline-custom-purple .text-2xl {
+  padding: 10px 20px;
+}
