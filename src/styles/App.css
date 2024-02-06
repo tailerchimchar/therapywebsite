@@ -121,10 +121,9 @@ nav {
 }
 
 .image-spacing{
-  margin-top: 50px;
+  margin-top: 70px;
   margin-left: 50px;
 }
-
 nav.footer-spacing p {
   margin: 3px 0;
 }
@@ -163,39 +162,24 @@ footer {
   padding-left: 20px;
 }
 
-.submit-button {
-  background-color: #3498db; /* Blue color, adjust as needed */
-  color: #fff; /* White text color */
-  padding: 10px 15px; /* Adjust padding as needed */
-  border: none;
-  margin:20px;
-  border-radius: 5px; /* Rounded corners, adjust as needed */
-  cursor: pointer;
-}
-
-.top-div-button {
-  position: absolute;
-  top: 0; 
-  left: 0;
-  width: 100%;
-  background-color: #E0C8EA;
-  padding: 10px;
-  margin-bottom: 0px; 
-  margin-right: 10px;
-}
-
 .div-test{
   margin-top: 50px;
   display: flex;
   justify-content: flex-end;
 }
 
-.btn-outline-custom-purple {
-  color: #6c757d; /* Text color for dark outline */
-  border-color: #800080; /* Purple border color */
+.whitespace{
+  margin-left: 600px;
+  margin-bottom: 10px;
+  border-width: 2px;
+  border-color: black;
 }
 
-/* Optionally, adjust the padding for better fit */
-.btn-outline-custom-purple .text-2xl {
-  padding: 10px 20px;
+.no-decoration{
+  text-decoration: none;
+  color: black;
+}
+
+.footer-spacing{
+  margin-top: 20px;
 }
